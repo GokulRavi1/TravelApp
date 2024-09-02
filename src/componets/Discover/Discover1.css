@@ -1,0 +1,128 @@
+.dicover-main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.h22{
+    color: hsl(190, 64%, 22%);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size:30px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.discover-para{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    height: 90vh;
+    width: 100%;
+}
+.discover-para .b1{
+    font-size: 25px;
+}
+.discover-para .b2{
+    font-size: 25px;
+}.discover-para .b3{
+    font-size: 25px;
+}
+.discover-para .p1{
+    font-family: 'Raleway', sans-serif;
+    color: hsl(190, 64%, 22%);
+    font-size: 14px;
+    font-weight: 300;
+    
+
+    
+}
+.discover-para .p2{
+    font-family: 'Raleway', sans-serif;
+    color: hsl(190, 64%, 22%);
+    font-size: 14px;
+    font-weight: 300;
+
+
+    
+    
+
+    
+}.discover-para .p3{
+    font-family: 'Raleway', sans-serif;
+    color: hsl(190, 64%, 22%);
+    font-size: 14px;
+    font-weight: 300;
+
+        
+    
+
+    
+}
+.im1{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    left: 440px;
+    top: 159rem;
+
+    
+
+}
+.im2{
+    width: auto;
+    height: 340px;
+    position: absolute;
+    left: 780px;
+    top: 164rem;
+}
+.videoh2{
+    color: hsl(190, 64%, 22%);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.videopara{
+    color: hsl(190, 64%, 22%);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+
+}
+.video{
+    width: 600px;
+    padding-left: 450px;
+    
+}
+video::-webkit-media-controls {}
+
+video::-webkit-media-controls-play-button {}
+
+video::-webkit-media-controls-volume-slider {}
+
+video::-webkit-media-controls-mute-button {}
+
+video::-webkit-media-controls-timeline {}
+
+video::-webkit-media-controls-current-time-display {}
+
+video::-webkit-media-controls-volume-slider {
+    display: none;
+}
+video::-webkit-media-controls-mute-button {
+    display: none;
+}
+video::-webkit-media-controls-timeline{
+    display: none;
+}
+video::-webkit-media-controls-current-time-display{
+    display: none;
+}
+/* video::-webkit-media-controls {
+    display: none;
+} */
+
+

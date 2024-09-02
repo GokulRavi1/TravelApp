@@ -1,0 +1,22 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 12px; */
+    background-image: url('/src/assets/home1.jpg');
+    background-repeat: no-repeat;
+
+    
+    
+}
+.Nav-logo{
+    font-size: 15px;
+
+}
+.Nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    
+}

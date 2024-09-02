@@ -1,0 +1,61 @@
+.h22{
+    color: hsl(190, 64%, 22%);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.place-main{
+    width: 100%;
+    height:110vh;
+    margin-top: 150px;
+}
+.place-div{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 70px;
+}
+.place-div1{
+    background-image: url(/src/assets/place1.jpg);
+    width: 175px;
+    height: 270px;
+    color: white;
+    font-family:  sans-serif;
+
+}
+.palce-div1-p1{
+    margin-left: 140px;
+}
+.palce-div1-h5{
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+.place-div2{
+    background-image: url(/src/assets/place2.jpg);
+    width: 175px;
+    height: 270px;
+}.place-div3{
+    background-image: url(/src/assets/place3.jpg);
+    width: 175px;
+    height: 270px;
+}
+.place-div-part2{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 205px;
+}
+.place-div4{
+    background-image: url(/src/assets/place4.jpg);
+    width: 175px;
+    height: 270px;
+}
+.place-div5{
+    background-image: url(/src/assets/place5.jpg);
+    width: 175px;
+    height: 270px;
+}

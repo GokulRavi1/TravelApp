@@ -1,0 +1,57 @@
+.footer-main{
+    width: 100%;
+    height: 40vh;
+}
+.footer-list-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+}
+.footer-list-div ul li{
+    list-style: none;
+color: hsla(190, 64%, 22%, 0.701);
+
+    
+}
+.footer-list-div h3{
+color: hsl(190, 64%, 22%);
+font-family: 'Raleway', sans-serif;
+
+
+}
+.footer-list-div p{
+color: hsla(190, 64%, 22%, 0.701);
+
+
+}
+.footer-div1{
+    width: 200px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.footer-agrement{
+    display: flex;
+    gap: 30px;
+
+}
+.footer-agrement a{
+    text-decoration: none;
+
+color: hsla(190, 64%, 22%, 0.615);
+position: relative;
+right: 100px;
+
+}
+.footer-botter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.footer-botter p{
+color: hsla(190, 64%, 22%, 0.615);
+font-family: 'Raleway', sans-serif;
+position: relative;
+left: 20px;
+}

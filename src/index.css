@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: Poppins,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --hue-color: 190;
+  background-color:  hsl(var(--hue-color), 100%, 99%);;
+}
+
+code {
+  font-family:Poppins,sans-serif;
+}

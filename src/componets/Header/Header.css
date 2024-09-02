@@ -1,0 +1,68 @@
+.Header{
+        background-image: url('/src/assets/home1.jpg');
+        width: 100%;
+        margin: 0;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+
+        
+
+        
+        
+        
+}
+.Header-content{
+        position: absolute;
+        left: 260px;
+}
+.Header-content span{
+color: white;
+
+
+}
+.Header-content h1{
+        color: white;
+        font-size: 60px;
+        font-weight: 500;
+}
+.Header-content button{
+        background-color: hsl(190, 64%, 22%);
+        color: white;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+}
+.Header-bottom {
+background-color:hsl(190, 64%, 22%) ;
+padding: 30px;
+position: absolute;
+left: 60%;
+bottom: 40px;
+
+}
+.Header-bottom{
+        display: flex;
+        gap: 20px;
+
+}
+.Header-bottom img{
+        width: 150px;
+        height:100px;
+        overflow: hidden;
+}
+.Header-bottom a img{
+        width: 20px;
+        height: 30px;
+        position: absolute;
+        left: 80px;
+        top: 114 px;
+}

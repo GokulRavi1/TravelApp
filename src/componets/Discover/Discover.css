@@ -1,0 +1,50 @@
+.Discover-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.Dicover-content h2{
+color: hsl(190, 64%, 22%);
+font-size: 30px;
+font-weight: 500;
+text-transform: capitalize;
+
+}
+.Dicsover-Imgcontainer{
+    display: flex;
+    overflow:scroll;
+    overflow-clip-margin: content-box;
+    gap: 20px;
+    justify-content: center;
+    width: 900px;
+    cursor: grab;
+}
+.div1{
+    background-image: url(/src/assets/discover1.jpg);
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1px;
+}
+.div1 p{
+    color: white;
+    margin-right: 20px;
+}
+.div2{
+    background-image: url(/src/assets/discover2.jpg);
+    width: 400px;
+    height: 340px;
+}.div3{
+    background-image: url(/src/assets/discover3.jpg);
+    width: 400px;
+    height: 340px;
+}.div4{
+    background-image: url(/src/assets/discover4.jpg);
+    width: 400px;
+    height: 340px;
+}
